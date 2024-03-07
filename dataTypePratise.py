@@ -14,8 +14,12 @@ def checkingDataType(variablename):
     elif type(variablename) == set:
         print("variable type is set and value is ",variablename)
 
+'''
+these are datatypes checking function calling
+'''
+
 checkingDataType(10)
-checkingDataType(14.6)
+checkingDataType(18.4)
 checkingDataType(True)
 checkingDataType(complex(3,5))
 checkingDataType([3,5,6])
