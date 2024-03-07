@@ -11,5 +11,6 @@ def checkSalary(salary,message):
         print("This is my first python program using Git and salary =",salary)
     else:
         print("This is my second python program using Git",salary,type(salary),message)
+        print("this is for testing pull from remote master to local")
 
 checkSalary(salary,"this is message")
