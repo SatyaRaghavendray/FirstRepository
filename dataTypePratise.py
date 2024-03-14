@@ -1,3 +1,6 @@
+import random
+
+
 def checkingDataType(variablename):
     if type(variablename) == int:
         print("variable type is int and value is ",variablename)
@@ -26,6 +29,7 @@ checkingDataType([3,5,6])
 checkingDataType((9,1,19.0))
 checkingDataType({"Raghu","Satya","priya","Bhanu"})
 
+print(random.randrange(1,100))
 
 
 
