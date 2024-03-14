@@ -43,3 +43,8 @@ l2=['mumbai','bangalore','kolkata']
 #print(l1+l2)
 l1.extend(l2)
 print(l1)
+
+i=0
+while i<len(l1):
+    print(i,l1[i])
+    i+=1
